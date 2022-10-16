@@ -57,6 +57,10 @@ header {
     min-width: 130px;
     font-family: "Silkscreen", sans-serif;
 }
+.header-mobile .logo-name a {
+    color: white;
+    text-decoration: none;
+}
 .header .menu-btn {
     padding: 20px;
     position: relative;
@@ -1099,14 +1103,7 @@ input[type="button"].fcf-btn-block {
     display: block;
     clear: both;
 }
-@media screen and (max-width:1357px) {
-    .header {
-        padding-left: 20px;
-    }
-    .nav-item a {
-        font-size: 13px;
-    }
-}
+
 @media screen and (max-width:1287px) {
     .header {
         padding-left: 20px;
